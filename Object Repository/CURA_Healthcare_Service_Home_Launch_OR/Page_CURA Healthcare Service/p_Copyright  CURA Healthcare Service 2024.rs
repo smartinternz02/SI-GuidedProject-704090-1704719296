@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Copyright  CURA Healthcare Service 2024</name>
+   <tag></tag>
+   <elementGuidId>eb2f790f-3bb9-4832-a632-f6238e3e97d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-muted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>86e2af45-1d93-4be8-97b6-00ec6179d7d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-muted</value>
+      <webElementGuid>ce55e75c-c849-4cc1-b24f-04278030d227</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Copyright © CURA Healthcare Service 2024</value>
+      <webElementGuid>3cccacbb-b8d1-4936-acbd-2fd66ad8f876</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/footer[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10 col-lg-offset-1 text-center&quot;]/p[@class=&quot;text-muted&quot;]</value>
+      <webElementGuid>287916d0-4b4d-4adc-8cff-b01507e1e9b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]</value>
+      <webElementGuid>873dab1a-3e8f-4abd-a5e9-53d4803ab885</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Copyright © CURA Healthcare Service 2024' or . = 'Copyright © CURA Healthcare Service 2024')]</value>
+      <webElementGuid>e0eb64f3-7061-4b7a-bf30-21ff2db3830b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

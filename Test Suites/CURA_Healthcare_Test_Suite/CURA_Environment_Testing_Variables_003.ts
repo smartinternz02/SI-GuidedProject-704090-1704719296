@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CURA_Environment_Testing_Variables_003</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f699c025-5702-4126-9c29-ebe4360dce57</testSuiteGuid>
+   <testCaseLink>
+      <guid>430d0c8a-cc3b-44c6-86cd-0c386695c032</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CURA_Healthcare_Service_variable_Appointment_Booking/TC_CURA_Healthcare_Service_Appointment_Confirmation_Global_001</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bba9ccda-5321-4e08-a5f4-3d3b1fcfd0ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CURA_Healthcare_Service_variable_Appointment_Booking/TC_CURA_Healthcare_Service_Appointment_Confirmation_Local_002</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b877179b-d8fe-428d-ac76-f76ae00daa10</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ef7cf67b-126a-4631-b248-acf83f2b601b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0ac0c14-4634-4243-9eab-ec8197fa21c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>540894b5-cefa-4304-bea1-227ade570b71</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

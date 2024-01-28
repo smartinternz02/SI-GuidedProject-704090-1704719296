@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_CURA Healthcare Service</name>
+   <tag></tag>
+   <elementGuidId>920ce1fe-970b-4839-ac70-e72e62989c3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//strong</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>1630758a-455c-4e84-85c0-1d6d7f8b8c13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CURA Healthcare Service</value>
+      <webElementGuid>0fbb2ffa-e1de-4786-a7a1-a87d800b94a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/footer[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10 col-lg-offset-1 text-center&quot;]/h4[1]/strong[1]</value>
+      <webElementGuid>ad2b6c61-5ee9-4767-9371-cb6dfada521e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//strong</value>
+      <webElementGuid>6bc8c9b6-2a63-499c-bb3c-f899fbfc3295</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'CURA Healthcare Service' or . = 'CURA Healthcare Service')]</value>
+      <webElementGuid>50df20bb-ad59-472c-b12a-44d5377191a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

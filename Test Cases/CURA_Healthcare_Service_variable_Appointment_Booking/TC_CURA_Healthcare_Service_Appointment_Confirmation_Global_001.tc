@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CURA_Healthcare_Service_Appointment_Confirmation_Global_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02f3152a-8897-4520-9df3-c8ce2f3a9bec</testCaseGuid>
+</TestCaseEntity>

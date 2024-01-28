@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>CURA_AppointmentConfirmation_Facility_Testdata_checkpoint</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/DDT_Test_Data_CURA/Katalon Booking Confirmation</source-url>
+   </source-info>
+   <taken-date>2024-01-28T17:58:48.411+05:30</taken-date>
+   <column-names>
+      <column-name>Display Message</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Appointment Confirmation",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
