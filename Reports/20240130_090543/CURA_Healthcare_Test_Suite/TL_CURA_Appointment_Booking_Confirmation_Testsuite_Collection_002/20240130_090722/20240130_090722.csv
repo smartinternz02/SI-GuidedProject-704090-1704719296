@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002,Edge Chromium 121,,,30-01-2024 09:09:57,30-01-2024 09:10:14,16.836s,PASSED
+,,,,,,,
+Test Cases/CURA_Healthcare_Service_Appointment_Booking_Confirmation_Testlistener/TC_TL_Appointment_Confirmation_001,Edge Chromium 121,,,30-01-2024 09:10:04,30-01-2024 09:10:14,10.157s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,30-01-2024 09:10:04,30-01-2024 09:10:07,3.002s,PASSED
+Start setup action : setupTestCase,Edge Chromium 121,,,30-01-2024 09:10:07,30-01-2024 09:10:07,0.426s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", true)",Edge Chromium 121,,,30-01-2024 09:10:07,30-01-2024 09:10:09,1.150s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/input_hospital_readmission""))",Edge Chromium 121,,,30-01-2024 09:10:09,30-01-2024 09:10:09,0.415s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/input_programs""))",Edge Chromium 121,,,30-01-2024 09:10:09,30-01-2024 09:10:09,0.480s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Edge Chromium 121,,,30-01-2024 09:10:09,30-01-2024 09:10:10,0.435s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/td_24""))",Edge Chromium 121,,,30-01-2024 09:10:10,30-01-2024 09:10:10,0.543s,PASSED
+"setText(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/textarea_comment""), ""Stomach ache"")",Edge Chromium 121,,,30-01-2024 09:10:10,30-01-2024 09:10:11,0.885s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Edge Chromium 121,,,30-01-2024 09:10:11,30-01-2024 09:10:12,0.810s,PASSED
+Start tear down : tearDownTestCase,Edge Chromium 121,,,30-01-2024 09:10:12,30-01-2024 09:10:13,0.376s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,30-01-2024 09:10:13,30-01-2024 09:10:14,1.513s,PASSED
