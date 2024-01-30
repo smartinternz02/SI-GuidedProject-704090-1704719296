@@ -1,0 +1,501 @@
+Started by user Sidharth Dinesh
+Running as SYSTEM
+Building in workspace C:\Users\HP\.jenkins\workspace\Katalon_Software_Automation_SB_CURA_001
+The recommended git tool is: NONE
+using credential 084f793d-daed-4ff5-b37b-7c780652bbc9
+ > git.exe rev-parse --resolve-git-dir C:\Users\HP\.jenkins\workspace\Katalon_Software_Automation_SB_CURA_001\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/smartinternz02/SI-GuidedProject-704090-1704719296.git # timeout=10
+Fetching upstream changes from https://github.com/smartinternz02/SI-GuidedProject-704090-1704719296.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.39.1.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/smartinternz02/SI-GuidedProject-704090-1704719296.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision d01d02607f6c75d58ca3a5174b40bb24924812f8 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f d01d02607f6c75d58ca3a5174b40bb24924812f8 # timeout=10
+Commit message: "Jenkins Execution of Test suites"
+ > git.exe rev-list --no-walk dfecf410363200022672c2969e84b5c28c86a550 # timeout=10
+Checking for pre-build
+Executing pre-build step
+Checking if email needs to be generated
+No emails were triggered.
+[Katalon_Software_Automation_SB_CURA_001] $ cmd /c call C:\Users\HP\AppData\Local\Temp\jenkins18219580046733706212.bat
+
+C:\Users\HP\.jenkins\workspace\Katalon_Software_Automation_SB_CURA_001>git init 
+Reinitialized existing Git repository in C:/Users/HP/.jenkins/workspace/Katalon_Software_Automation_SB_CURA_001/.git/
+
+C:\Users\HP\.jenkins\workspace\Katalon_Software_Automation_SB_CURA_001>cd "C:\Users\HP\git\SI-GuidedProject-704090-1704719296" 
+
+C:\Users\HP\git\SI-GuidedProject-704090-1704719296>git config user.name Sidharth0811 
+
+C:\Users\HP\git\SI-GuidedProject-704090-1704719296>git config user.email sidharth.dinesh2021@vitstudent.ac.in 
+
+C:\Users\HP\git\SI-GuidedProject-704090-1704719296>git pull https://github.com/smartinternz02/SI-GuidedProject-704090-1704719296.git 
+From https://github.com/smartinternz02/SI-GuidedProject-704090-1704719296
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\HP\git\SI-GuidedProject-704090-1704719296>cd "C:\Users\HP\Katalon_Studio_Engine_Windows_64-9.2.0\Katalon_Studio_Engine_Windows_64-9.2.0" 
+
+C:\Users\HP\Katalon_Studio_Engine_Windows_64-9.2.0\Katalon_Studio_Engine_Windows_64-9.2.0>katalonc -noSplash -runMode=console -projectPath="C:\Users\HP\git\SI-GuidedProject-704090-1704719296\SI-GuidedProject-704090-1704719296.prj" -retry=0 -testSuiteCollectionPath="Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Procedure_Testsuite_Collection_001" -apiKey="ed1e9567-621a-4e48-a178-83f748fe00d6" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true 
+Katalon workspace folder is set to default location: C:\Users\HP\AppData\Local\Temp\session-e6d042c4
+Starting Groovy-Eclipse compiler resolver. Specified compiler level: unspecified
+167 org.codehaus.groovy_3.0.17.v202303311542-e2303 ACTIVE
+Activating...
+Start getting machine ID on Windows
+Start appending additional signatures
+hardwareSerialNumber 5cd12063qw
+osDependentUsername hp
+End appending additional signatures 9f6b312e-2738-4894-97b7-3342dbf1c7e5__hp
+End getting machine ID on Windows 301b986b3f1588f458c011c466370fc6
+Start activating offline...
+Search for valid offline licenses in folder: C:\Users\HP\.katalon\license
+The number of valid offline licenses: 0
+Start activating online...
+Activated successfully with Katalon Runtime Engine license. 
+Failed to activate with TestCloud license. 
+
+
+INFO: Katalon Version: 9.2.0
+INFO: Command-line arguments: -runMode=console -projectPath=C:\Users\HP\git\SI-GuidedProject-704090-1704719296\SI-GuidedProject-704090-1704719296.prj -retry=0 -testSuiteCollectionPath=Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Procedure_Testsuite_Collection_001 -apiKey=******** --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
+INFO: User working dir: C:\Users\HP\Katalon_Studio_Engine_Windows_64-9.2.0\Katalon_Studio_Engine_Windows_64-9.2.0
+INFO: Error log: C:/Users/HP/AppData/Local/Temp/session-e6d042c4/.metadata/.log
+INFO: Katalon KatOne server URL: https://admin.katalon.com
+INFO: Katalon TestOps server URL: https://testops.katalon.io
+INFO: Katalon Store server URL: https://store.katalon.com
+INFO: User home: C:\Users\HP
+INFO: Java vendor: Eclipse Adoptium
+INFO: Java version: 17.0.7
+INFO: Local OS: Windows 11 64bit
+INFO: CPU load: 2%
+INFO: Total memory: 15733 MB
+INFO: Free memory: 2166 MB
+INFO: Machine ID: 301b986b3f1588f458c011c466370fc6
+
+
+Delete folder: bin
+Delete folder: Libs
+Cleaning up workspace
+Opening project file: C:\Users\HP\git\SI-GuidedProject-704090-1704719296\SI-GuidedProject-704090-1704719296.prj
+Generating global variables...
+Project 'SI-GuidedProject-704090-1704719296' opened
+Start reloading plugins...
+Katalon version: 9.2.0
+Plugin info URL: https://store.katalon.com/api/products/ks?appVersion=9.2.0&appType=ENGINE&licenseType=TRIAL
+Start checking license task
+Chrome driver is located at: C:\Users\HP\Katalon_Studio_Engine_Windows_64-9.2.0\Katalon_Studio_Engine_Windows_64-9.2.0\configuration\resources\temp\webdriver\chromedriver.exe
+Edge Chromium driver is located at: C:\Users\HP\Katalon_Studio_Engine_Windows_64-9.2.0\Katalon_Studio_Engine_Windows_64-9.2.0\configuration\resources\temp\webdriver\msedgedriver.exe
+Edge Chromium driver is located at: C:\Users\HP\Katalon_Studio_Engine_Windows_64-9.2.0\Katalon_Studio_Engine_Windows_64-9.2.0\configuration\resources\temp\webdriver\msedgedriver.exe
+
+--------------------------RETRY EXECUTION INFORMATION--------------------------
+Test Suite Collection 'CURA_Appointment_Booking_Procedure_Testsuite_Collection_001':
+- Test Suite 'CURA_Appointment_Booking_Testsuite_001' runs with Immediately retry strategy and 0 retry time(s).
+- Test Suite 'CURA_Environment_Testing_Variables_003' runs with Immediately retry strategy and 0 retry time(s).
+- Test Suite 'TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002' runs with Immediately retry strategy and 0 retry time(s).
+--------------------------------------------------------------------------------
+
+Running: Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - Chrome - 20240130_142250
+INFO: KATALON_JAVA_HOME: null
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220..........................0/8(0%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250.................................................0/5(0%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326..........................................0/2(0%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403...............0/1(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220..........................0/8(0%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250.................................................0/5(0%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326..........................................0/2(0%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403...............0/1(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220.........................1/8(13%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250................................................1/5(20%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326..........................................0/2(0%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403...............0/1(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220.........................2/8(25%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250................................................2/5(40%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326..........................................0/2(0%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403...............0/1(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220.........................3/8(38%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250................................................3/5(60%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326..........................................0/2(0%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403...............0/1(0%)
+--------------------------------------------------------------------------------
+
+Launcher status after execution process completed: Running
+Start writing execution.uuid file to folder: C:\Users\HP\git\SI-GuidedProject-704090-1704719296\Reports\20240130_142220\CURA_Healthcare_Test_Suite\CURA_Appointment_Booking_Testsuite_001\20240130_142250
+Start generating JUnit report folder at: C:\Users\HP\git\SI-GuidedProject-704090-1704719296\Reports\20240130_142220\CURA_Healthcare_Test_Suite\CURA_Appointment_Booking_Testsuite_001\20240130_142250...
+JUnit report were generated at folder: C:\Users\HP\git\SI-GuidedProject-704090-1704719296\Reports\20240130_142220\CURA_Healthcare_Test_Suite\CURA_Appointment_Booking_Testsuite_001\20240130_142250
+For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+Running: Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - Edge Chromium - 20240130_142326
+INFO: KATALON_JAVA_HOME: null
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220.........................5/8(63%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250...............................................5/5(100%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326..........................................0/2(0%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403...............0/1(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220.........................5/8(63%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250...............................................5/5(100%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326..........................................0/2(0%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403...............0/1(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220.........................5/8(63%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250...............................................5/5(100%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326..........................................0/2(0%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403...............0/1(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220.........................6/8(75%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250...............................................5/5(100%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326.........................................1/2(50%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403...............0/1(0%)
+--------------------------------------------------------------------------------
+
+Launcher status after execution process completed: Running
+Start writing execution.uuid file to folder: C:\Users\HP\git\SI-GuidedProject-704090-1704719296\Reports\20240130_142220\CURA_Healthcare_Test_Suite\CURA_Environment_Testing_Variables_003\20240130_142326
+Start generating JUnit report folder at: C:\Users\HP\git\SI-GuidedProject-704090-1704719296\Reports\20240130_142220\CURA_Healthcare_Test_Suite\CURA_Environment_Testing_Variables_003\20240130_142326...
+JUnit report were generated at folder: C:\Users\HP\git\SI-GuidedProject-704090-1704719296\Reports\20240130_142220\CURA_Healthcare_Test_Suite\CURA_Environment_Testing_Variables_003\20240130_142326
+For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+Running: Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002 - Edge Chromium - 20240130_142403
+INFO: KATALON_JAVA_HOME: null
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220.........................7/8(88%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250...............................................5/5(100%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326........................................2/2(100%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403...............0/1(0%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220.........................7/8(88%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250...............................................5/5(100%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326........................................2/2(100%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403...............0/1(0%)
+--------------------------------------------------------------------------------
+
+Launcher status after execution process completed: Running
+Start writing execution.uuid file to folder: C:\Users\HP\git\SI-GuidedProject-704090-1704719296\Reports\20240130_142220\CURA_Healthcare_Test_Suite\TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002\20240130_142403
+Start generating JUnit report folder at: C:\Users\HP\git\SI-GuidedProject-704090-1704719296\Reports\20240130_142220\CURA_Healthcare_Test_Suite\TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002\20240130_142403...
+JUnit report were generated at folder: C:\Users\HP\git\SI-GuidedProject-704090-1704719296\Reports\20240130_142220\CURA_Healthcare_Test_Suite\TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002\20240130_142403
+For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+Preparing integration report for Katalon TestOps
+Done preparing integration report for Katalon TestOps
+Preparing integration report for Azure
+Done preparing integration report for Azure
+Preparing integration report for qTest
+Done preparing integration report for qTest
+Uploading report to Katalon TestOps...
+For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+Report has been sent to Katalon TestOps
+Uploading report to Azure...
+Report has been sent to Azure
+Uploading report to qTest...
+Report has been sent to qTest
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Proce
+dure_Testsuite_Collection_001 - 20240130_142220........................8/8(100%)
+--------------------------------------------------------------------------------
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001 - 
+Chrome - 20240130_142250...............................................5/5(100%)
+Test Suites/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003 - 
+Edge Chromium - 20240130_142326........................................2/2(100%)
+Test Suites/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_
+Testsuite_Collection_002 - Edge Chromium - 20240130_142403.............1/1(100%)
+--------------------------------------------------------------------------------
+
+Execution completed. Exit code: 0.
+Start clean up session
+End check license task
+End clean up session
+Start release license task
+License released
+End release license task
+All launchers terminated
+
+C:\Users\HP\Katalon_Studio_Engine_Windows_64-9.2.0\Katalon_Studio_Engine_Windows_64-9.2.0>cd "C:\Users\HP\git\SI-GuidedProject-704090-1704719296" 
+
+C:\Users\HP\git\SI-GuidedProject-704090-1704719296>git status 
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .project
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Reports/20240129_230332/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240129_230402/testCaseBinding
+	Reports/20240129_230332/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240129_230440/testCaseBinding
+	Reports/20240129_230332/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240129_230510/testCaseBinding
+	Reports/20240129_230839/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240129_230907/testCaseBinding
+	Reports/20240129_230839/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240129_230941/testCaseBinding
+	Reports/20240129_230839/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240129_231009/testCaseBinding
+	Reports/20240129_233630/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240129_233648/testCaseBinding
+	Reports/20240129_233630/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240129_233707/testCaseBinding
+	Reports/20240129_233630/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240129_233723/testCaseBinding
+	Reports/20240129_234752/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240129_234828/testCaseBinding
+	Reports/20240129_234752/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240129_234854/testCaseBinding
+	Reports/20240129_234752/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240129_234917/testCaseBinding
+	Reports/20240130_000144/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_000211/testCaseBinding
+	Reports/20240130_000144/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_000240/testCaseBinding
+	Reports/20240130_000144/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_000306/testCaseBinding
+	Reports/20240130_001610/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_001628/testCaseBinding
+	Reports/20240130_001610/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_001652/testCaseBinding
+	Reports/20240130_001610/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_001727/testCaseBinding
+	Reports/20240130_002336/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_002500/testCaseBinding
+	Reports/20240130_002336/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_002556/testCaseBinding
+	Reports/20240130_002336/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_002639/testCaseBinding
+	Reports/20240130_011205/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_011211/testCaseBinding
+	Reports/20240130_011205/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_011221/testCaseBinding
+	Reports/20240130_011205/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_011232/testCaseBinding
+	Reports/20240130_011530/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_011530/testCaseBinding
+	Reports/20240130_083126/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_083157/testCaseBinding
+	Reports/20240130_083126/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_083232/testCaseBinding
+	Reports/20240130_083126/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_083308/testCaseBinding
+	Reports/20240130_085018/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_085047/testCaseBinding
+	Reports/20240130_085018/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_085123/testCaseBinding
+	Reports/20240130_085018/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_085159/testCaseBinding
+	Reports/20240130_090543/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_090611/testCaseBinding
+	Reports/20240130_090543/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_090647/testCaseBinding
+	Reports/20240130_090543/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_090722/testCaseBinding
+	Reports/20240130_092356/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_092424/testCaseBinding
+	Reports/20240130_092356/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_092500/testCaseBinding
+	Reports/20240130_092356/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_092535/testCaseBinding
+	Reports/20240130_093252/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_093320/testCaseBinding
+	Reports/20240130_093252/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_093356/testCaseBinding
+	Reports/20240130_093252/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_093431/testCaseBinding
+	Reports/20240130_142220/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\HP\git\SI-GuidedProject-704090-1704719296>git add *.* 
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/20240130_142250.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/JUnit_Report.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/broken-test-objects.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/execution0.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/20240130_142326.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/JUnit_Report.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/broken-test-objects.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/execution0.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_142403/20240130_142403.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_142403/execution0.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Procedure_Testsuite_Collection_001/20240130_142220/HTML_Report.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Reports/20240130_142220/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Procedure_Testsuite_Collection_001/20240130_142220/JUnit_Report.xml', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\HP\git\SI-GuidedProject-704090-1704719296>git commit -m "Jenkins Execution of Test suites" 
+[main 41c4ad1] Jenkins Execution of Test suites
+ 27 files changed, 29572 insertions(+)
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/20240130_142250.csv
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/20240130_142250.html
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/JUnit_Report.xml
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/broken-test-objects.json
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/execution.properties
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/execution.uuid
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/execution0.log
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Appointment_Booking_Testsuite_001/20240130_142250/tsc_id.txt
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/20240130_142326.csv
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/20240130_142326.html
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/JUnit_Report.xml
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/broken-test-objects.json
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/execution.properties
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/execution.uuid
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/execution0.log
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/CURA_Environment_Testing_Variables_003/20240130_142326/tsc_id.txt
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_142403/20240130_142403.csv
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_142403/20240130_142403.html
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_142403/JUnit_Report.xml
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_142403/execution.properties
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_142403/execution.uuid
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_142403/execution0.log
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite/TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002/20240130_142403/tsc_id.txt
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Procedure_Testsuite_Collection_001/20240130_142220/20240130_142220.rp
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Procedure_Testsuite_Collection_001/20240130_142220/HTML_Report.html
+ create mode 100644 Reports/20240130_142220/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Procedure_Testsuite_Collection_001/20240130_142220/JUnit_Report.xml
+
+C:\Users\HP\git\SI-GuidedProject-704090-1704719296>git push -u https://github.com/smartinternz02/SI-GuidedProject-704090-1704719296.git main 
+branch 'main' set up to track 'https://github.com/smartinternz02/SI-GuidedProject-704090-1704719296.git/main'.
+To https://github.com/smartinternz02/SI-GuidedProject-704090-1704719296.git
+   d01d026..41c4ad1  main -> main
+
+C:\Users\HP\git\SI-GuidedProject-704090-1704719296>echo Success 
+Success
+
+C:\Users\HP\git\SI-GuidedProject-704090-1704719296>exit 0 
+Checking for post-build
+Performing post-build step
+Checking if email needs to be generated
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending mail from default account using System Admin e-mail address
+messageContentType = text/html; charset=UTF-8
+Request made to attach build log
+  Collecting change authors...
+    build: 17
+      adding author: Sidharth Dinesh
+Adding Sidharth Dinesh with address sidharth.dinesh2021@vitstudent.ac.in
+Analyzing: sidharth.dinesh2021@vitstudent.ac.in
+Looking for: sidharth.dinesh2021@vitstudent.ac.in
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: sidharth.dinesh2021@vitstudent.ac.in
+	=> found type: 0
+Analyzing: sidharth.dinesh2021@vitstudent.ac.in
+Looking for: sidharth.dinesh2021@vitstudent.ac.in
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: sidharth.dinesh2021@vitstudent.ac.in
+	=> found type: 0
+Analyzing: sidharth.dinesh2021@vitstudent.ac.in
+Looking for: sidharth.dinesh2021@vitstudent.ac.in
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: sidharth.dinesh2021@vitstudent.ac.in
+	=> found type: 0
+Adding recipients from project recipient list
+Analyzing: sidart81103@gmail.com
+Looking for: sidart81103@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: sidart81103@gmail.com
+	=> found type: 0
+Analyzing: sidart81103@gmail.com
+Looking for: sidart81103@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: sidart81103@gmail.com
+	=> found type: 0
+Analyzing: sidart81103@gmail.com
+Looking for: sidart81103@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: sidart81103@gmail.com
+	=> found type: 0
+Adding recipients from trigger recipient list
+Successfully created MimeMessage
+Sending email to: sidharth.dinesh2021@vitstudent.ac.in sidart81103@gmail.com
+DEBUG: getProvider() returning jakarta.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: need username and password for authentication
+DEBUG SMTP: protocolConnect returning false, host=smtp.gmail.com, user=HP, password=<null>
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 smtp.gmail.com ESMTP o2-20020a170902e00200b001d8fca928fbsm1565512plo.230 - gsmtp
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+EHLO LAPTOP-U7SUIAL3
+250-smtp.gmail.com at your service, [115.240.194.54]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension "SIZE", arg "35882577"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "SMTPUTF8", arg ""
+DEBUG SMTP: protocolConnect login, host=smtp.gmail.com, user=sidart81103@gmail.com, password=<non-null>
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM XOAUTH2 
+DEBUG SMTP: Using mechanism LOGIN
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<nobody@nowhere>
+250 2.1.0 OK o2-20020a170902e00200b001d8fca928fbsm1565512plo.230 - gsmtp
+DEBUG SMTP: sendPartial set
+RCPT TO:<sidharth.dinesh2021@vitstudent.ac.in>
+250 2.1.5 OK o2-20020a170902e00200b001d8fca928fbsm1565512plo.230 - gsmtp
+RCPT TO:<sidart81103@gmail.com>
+250 2.1.5 OK o2-20020a170902e00200b001d8fca928fbsm1565512plo.230 - gsmtp
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   sidharth.dinesh2021@vitstudent.ac.in
+DEBUG SMTP:   sidart81103@gmail.com
+DATA
+354  Go ahead o2-20020a170902e00200b001d8fca928fbsm1565512plo.230 - gsmtp
