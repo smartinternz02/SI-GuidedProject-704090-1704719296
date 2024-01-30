@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Environment_Testing_Variables_003,Edge Chromium 121,,,30-01-2024 08:53:40,30-01-2024 08:54:18,37.759s,PASSED
+,,,,,,,
+Test Cases/CURA_Healthcare_Service_variable_Appointment_Booking/TC_CURA_Healthcare_Service_Appointment_Confirmation_Global_001,Edge Chromium 121,,,30-01-2024 08:53:40,30-01-2024 08:54:01,20.710s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,30-01-2024 08:53:40,30-01-2024 08:53:41,0.431s,ERROR
+"openBrowser("""")",Edge Chromium 121,,,30-01-2024 08:53:41,30-01-2024 08:53:43,1.972s,PASSED
+navigateToUrl(url),Edge Chromium 121,,,30-01-2024 08:53:43,30-01-2024 08:53:49,6.491s,PASSED
+"click(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 121,,,30-01-2024 08:53:49,30-01-2024 08:53:50,0.938s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/input_username""), Username)",Edge Chromium 121,,,30-01-2024 08:53:50,30-01-2024 08:53:51,0.908s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/input_password""), Password)",Edge Chromium 121,,,30-01-2024 08:53:51,30-01-2024 08:53:52,1.048s,PASSED
+"click(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/button_Login""))",Edge Chromium 121,,,30-01-2024 08:53:52,30-01-2024 08:53:53,1.180s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Edge Chromium 121,,,30-01-2024 08:53:53,30-01-2024 08:53:54,0.451s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", true)",Edge Chromium 121,,,30-01-2024 08:53:54,30-01-2024 08:53:55,1.125s,PASSED
+"click(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/input_hospital_readmission""))",Edge Chromium 121,,,30-01-2024 08:53:55,30-01-2024 08:53:55,0.376s,PASSED
+"click(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/input_programs""))",Edge Chromium 121,,,30-01-2024 08:53:55,30-01-2024 08:53:56,0.437s,PASSED
+"click(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Edge Chromium 121,,,30-01-2024 08:53:56,30-01-2024 08:53:56,0.469s,PASSED
+"click(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/td_27""))",Edge Chromium 121,,,30-01-2024 08:53:56,30-01-2024 08:53:57,0.581s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/textarea_comment""), Comment)",Edge Chromium 121,,,30-01-2024 08:53:57,30-01-2024 08:53:58,0.914s,PASSED
+"click(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Edge Chromium 121,,,30-01-2024 08:53:58,30-01-2024 08:53:59,0.814s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/h2_Appointment Confirmation""), 0)",Edge Chromium 121,,,30-01-2024 08:53:59,30-01-2024 08:53:59,0.345s,PASSED
+"click(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/i_fa fa-bars""))",Edge Chromium 121,,,30-01-2024 08:53:59,30-01-2024 08:53:59,0.448s,PASSED
+"click(findTestObject(""Object Repository/CURA_Global_Environment_OR/Page_CURA Healthcare Service/a_Logout""))",Edge Chromium 121,,,30-01-2024 08:53:59,30-01-2024 08:54:00,1.135s,PASSED
+closeBrowser(),Edge Chromium 121,,,30-01-2024 08:54:00,30-01-2024 08:54:01,0.440s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,30-01-2024 08:54:01,30-01-2024 08:54:01,0.073s,ERROR
+,,,,,,,
+Test Cases/CURA_Healthcare_Service_variable_Appointment_Booking/TC_CURA_Healthcare_Service_Appointment_Confirmation_Local_002,Edge Chromium 121,,,30-01-2024 08:54:01,30-01-2024 08:54:18,16.884s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,30-01-2024 08:54:01,30-01-2024 08:54:01,0.073s,ERROR
+"openBrowser("""")",Edge Chromium 121,,,30-01-2024 08:54:01,30-01-2024 08:54:02,1.040s,PASSED
+navigateToUrl(url),Edge Chromium 121,,,30-01-2024 08:54:02,30-01-2024 08:54:07,4.160s,PASSED
+"click(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 121,,,30-01-2024 08:54:07,30-01-2024 08:54:08,1.085s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/input_username""), Username)",Edge Chromium 121,,,30-01-2024 08:54:08,30-01-2024 08:54:09,0.904s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/input_password""), Password)",Edge Chromium 121,,,30-01-2024 08:54:09,30-01-2024 08:54:09,0.936s,PASSED
+"click(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/button_Login""))",Edge Chromium 121,,,30-01-2024 08:54:09,30-01-2024 08:54:11,1.051s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Edge Chromium 121,,,30-01-2024 08:54:11,30-01-2024 08:54:11,0.312s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", true)",Edge Chromium 121,,,30-01-2024 08:54:11,30-01-2024 08:54:12,1.061s,PASSED
+"click(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/input_hospital_readmission""))",Edge Chromium 121,,,30-01-2024 08:54:12,30-01-2024 08:54:12,0.416s,PASSED
+"click(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/input_programs""))",Edge Chromium 121,,,30-01-2024 08:54:12,30-01-2024 08:54:13,0.383s,PASSED
+"click(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Edge Chromium 121,,,30-01-2024 08:54:13,30-01-2024 08:54:13,0.465s,PASSED
+"click(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/td_27""))",Edge Chromium 121,,,30-01-2024 08:54:13,30-01-2024 08:54:14,0.522s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/textarea_comment""), Comment)",Edge Chromium 121,,,30-01-2024 08:54:14,30-01-2024 08:54:15,0.950s,PASSED
+"click(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Edge Chromium 121,,,30-01-2024 08:54:15,30-01-2024 08:54:15,0.753s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/h2_Appointment Confirmation""), 0)",Edge Chromium 121,,,30-01-2024 08:54:15,30-01-2024 08:54:16,0.331s,PASSED
+"click(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/i_fa fa-bars""))",Edge Chromium 121,,,30-01-2024 08:54:16,30-01-2024 08:54:16,0.487s,PASSED
+"click(findTestObject(""Object Repository/CURA_Local_Environment_OR/Page_CURA Healthcare Service/a_Logout""))",Edge Chromium 121,,,30-01-2024 08:54:16,30-01-2024 08:54:17,1.129s,PASSED
+closeBrowser(),Edge Chromium 121,,,30-01-2024 08:54:17,30-01-2024 08:54:18,0.448s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,30-01-2024 08:54:18,30-01-2024 08:54:18,0.058s,ERROR
