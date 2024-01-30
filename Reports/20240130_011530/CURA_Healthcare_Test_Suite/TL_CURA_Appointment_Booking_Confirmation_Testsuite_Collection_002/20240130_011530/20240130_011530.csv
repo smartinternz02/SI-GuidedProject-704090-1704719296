@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_CURA_Appointment_Booking_Confirmation_Testsuite_Collection_002,Chrome 120.0.0.0,,,30-01-2024 01:15:39,30-01-2024 01:15:55,16.064s,PASSED
+,,,,,,,
+Test Cases/CURA_Healthcare_Service_Appointment_Booking_Confirmation_Testlistener/TC_TL_Appointment_Confirmation_001,Chrome 120.0.0.0,,,30-01-2024 01:15:46,30-01-2024 01:15:55,8.626s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 01:15:46,30-01-2024 01:15:49,2.218s,PASSED
+Start setup action : setupTestCase,Chrome 120.0.0.0,,,30-01-2024 01:15:49,30-01-2024 01:15:49,0.331s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,30-01-2024 01:15:49,30-01-2024 01:15:50,0.944s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/input_hospital_readmission""))",Chrome 120.0.0.0,,,30-01-2024 01:15:50,30-01-2024 01:15:50,0.344s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/input_programs""))",Chrome 120.0.0.0,,,30-01-2024 01:15:50,30-01-2024 01:15:51,0.342s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Chrome 120.0.0.0,,,30-01-2024 01:15:51,30-01-2024 01:15:51,0.351s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/td_24""))",Chrome 120.0.0.0,,,30-01-2024 01:15:51,30-01-2024 01:15:52,0.552s,PASSED
+"setText(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/textarea_comment""), ""Stomach ache"")",Chrome 120.0.0.0,,,30-01-2024 01:15:52,30-01-2024 01:15:52,0.730s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_Healthcare_Service_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,30-01-2024 01:15:52,30-01-2024 01:15:53,0.806s,PASSED
+Start tear down : tearDownTestCase,Chrome 120.0.0.0,,,30-01-2024 01:15:53,30-01-2024 01:15:53,0.304s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 01:15:53,30-01-2024 01:15:55,1.570s,PASSED
