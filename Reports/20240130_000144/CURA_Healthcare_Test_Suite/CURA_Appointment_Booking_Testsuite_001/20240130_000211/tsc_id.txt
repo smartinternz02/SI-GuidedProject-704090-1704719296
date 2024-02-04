@@ -1,1 +1,0 @@
-Test Suites/CURA_Healthcare_Test_Suite_Collection/CURA_Appointment_Booking_Procedure_Testsuite_Collection_001
